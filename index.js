@@ -22,3 +22,7 @@ BankBranch.bankBranchInstance = null;
 const branchA = new BankBranch("Branch A Information");
 const branchB = new BankBranch("Branch B Information");
 
+// Retrieving branch information
+const branchAInfo = branchA.getBranchInfo();
+const branchBInfo = branchB.getBranchInfo();
+
