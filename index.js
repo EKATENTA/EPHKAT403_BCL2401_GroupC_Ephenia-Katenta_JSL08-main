@@ -26,3 +26,11 @@ const branchB = new BankBranch("Branch B Information");
 const branchAInfo = branchA.getBranchInfo();
 const branchBInfo = branchB.getBranchInfo();
 
+// Verifying both branches point to the same instance
+console.log(branchA === branchB); // true
+
+// Verifying branch details
+console.log(branchAInfo); 
+console.log(branchBInfo); 
+
+
