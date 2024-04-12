@@ -18,3 +18,7 @@ class BankBranch {
 // Set singleton instance variable 
 BankBranch.bankBranchInstance = null;
 
+// Creating instances and Usage of BankBranch class 
+const branchA = new BankBranch("Branch A Information");
+const branchB = new BankBranch("Branch B Information");
+
