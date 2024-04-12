@@ -13,3 +13,8 @@ class BankBranch {
     return this.branchInfo;
   }
 }
+
+
+// Set singleton instance variable 
+BankBranch.bankBranchInstance = null;
+
