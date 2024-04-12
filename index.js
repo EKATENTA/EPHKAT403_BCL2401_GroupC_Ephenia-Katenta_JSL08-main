@@ -8,7 +8,7 @@ class BankBranch {
     return BankBranch.bankBranchInstance;
   }
 
-  // Method to retrieve branch information
+  // Method to retrieve branch details
   getBranchInfo() {
     return this.branchInfo;
   }
